@@ -69,5 +69,3 @@ export const LandingPage: React.FC = () => {
   );
 };
 
-// Need AlertCircle icon too
-import { AlertCircle } from 'lucide-react';

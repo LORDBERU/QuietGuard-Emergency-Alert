@@ -4,7 +4,6 @@ import * as settingsApi from '../api/settings';
 import * as contactsApi from '../api/contacts';
 import { useAuth } from '../hooks/useAuth';
 import { SoundEventType } from '../types';
-import * as profileApi from '../api/profile';
 
 export const SettingsPage: React.FC = () => {
   const { user } = useAuth();
