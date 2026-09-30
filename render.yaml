@@ -39,7 +39,6 @@ services:
         fromService:
           name: quietguard-backend
           type: web
-          property: host
           envVarKey: RENDER_EXTERNAL_URL
     routes:
       - type: rewrite
